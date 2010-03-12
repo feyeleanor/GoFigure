@@ -1,0 +1,8 @@
+GoFigure is a trivial templating tool built using Hoisie's mustache package.
+See http://github.com/hoisie/mustache.go for further details.
+
+Rules are specified on the command-line as follows:
+
+	gofigure -i="template.mustache" "somekey -> somevalue" ...
+
+and in the absence of an input file standard input is used as the template file.
